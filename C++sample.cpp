@@ -7,7 +7,7 @@ int main ()
 int alpha[50];
 for (int i=0;i<25;i++)
 {
-alpha[i]=i*i;
+alpha[i]=i+i;
 cout<<alpha[i]<<" ";
 }
 for(int i=25;i<50;i++)
